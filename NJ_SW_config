@@ -1,6 +1,6 @@
 En
 Config t
-hostname Router1
+hostname Switch3
 
 username admin privilege 15 password cisco
 
