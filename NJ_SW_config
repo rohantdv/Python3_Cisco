@@ -1,0 +1,21 @@
+En
+Config t
+hostname Switch3
+
+username admin privilege 15 password cisco
+
+int gigabitEthernet 0/0
+no shut
+no switchport
+ip address dhcp
+
+ip domain-name networkjourney.com
+
+crypto key generate rsa modulus 1024
+
+line vty 0 4
+login local
+transport input all
+exec-timeout 0 10
+end
+wr
